@@ -27,6 +27,6 @@ BaselineOfAIPharo >> baseline: spec [
 				baseline: 'Datasets'							with: [ spec repository: 'github://pharo-ai/Datasets/' ];
 				baseline: 'NaiveBayesClassifier'			with: [ spec repository: 'github://pharo-ai/NaiveBayesClassifier/src' ].
 			spec
-				group: 'Core' 						with: #('AIHierarchicalClustering' 'AIkNN' 'AIkMeans' 'AIMetrics' 'AIViz' 'APriori' 'NgramModel' 'DecisionTreeModel' 'Tfidf' 'Polyglot'  'StringMetrics' 'RandomPartitioner' 'Datasets' 'NaiveBayesClassifier');
+				group: 'Core' 						with: #('AIHierarchicalClustering' 'AIkNN' 'AIKMeans' 'AIMetrics' 'AIViz' 'APriori' 'NgramModel' 'DecisionTreeModel' 'Tfidf' 'Polyglot'  'StringMetrics' 'RandomPartitioner' 'Datasets' 'NaiveBayesClassifier');
 				group: 'default' 					with: #('Core') ]
 ]
