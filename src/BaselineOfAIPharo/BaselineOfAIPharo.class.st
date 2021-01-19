@@ -1,22 +1,23 @@
 Class {
-	#name : #BaselineOfMLPharo,
+	#name : #BaselineOfAIPharo,
 	#superclass : #BaselineOf,
-	#category : #BaselineOfMLPharo
+	#category : #BaselineOfAIPharo
 }
 
 { #category : #baselines }
-BaselineOfMLPharo >> baseline: spec [
+BaselineOfAIPharo >> baseline: spec [
   <baseline>
 	spec
 		for: #(common)
 		do: [ 
 			spec 
-				baseline: 'MLHierarchicalClustering' 	with: [ spec repository: 'github://pharo-ai/MLHierarchicalClustering:main/src' ];
-				baseline: 'MLkNN'								with: [ spec repository: 'github://pharo-ai/MLkNN:main/src' ];
-				baseline: 'KMeans'								with: [ spec repository: 'github://pharo-ai/KMeans/src' ];
-				baseline: 'MLMetrics'							with: [ spec repository: 'github://pharo-ai/MLMetrics:main/src' ];
-				baseline: 'MLViz'								with: [ spec repository: 'github://pharo-ai/MLViz:main/src' ];
+				baseline: 'AIHierarchicalClustering' 	with: [ spec repository: 'github://pharo-ai/hierarchical-clustering/src' ];
+				baseline: 'AIkNN'								with: [ spec repository: 'github://pharo-ai/kNN/src' ];
+				baseline: 'AIKMeans'							with: [ spec repository: 'github://pharo-ai/k-means/src' ];
+				baseline: 'AIMetrics'							with: [ spec repository: 'github://pharo-ai/metrics/src' ];
+				baseline: 'AIViz'								with: [ spec repository: 'github://pharo-ai/viz/src' ];
 				baseline: 'APriori'							with: [ spec repository: 'github://pharo-ai/APriori/src' ];
+				baseline: 'AINormalization'					with: [ spec repository: 'github://pharo-ai/normalization/src' ];
 				baseline: 'NgramModel'						with: [ spec repository: 'github://pharo-ai/NgramModel/src' ];
 				baseline: 'DecisionTreeModel'				with: [ spec repository: 'github://pharo-ai/DecisionTreeModel/src' ];
 				baseline: 'Tfidf'								with: [ spec repository: 'github://pharo-ai/TF-IDF/src' ];
@@ -26,6 +27,6 @@ BaselineOfMLPharo >> baseline: spec [
 				baseline: 'Datasets'							with: [ spec repository: 'github://pharo-ai/Datasets/' ];
 				baseline: 'NaiveBayesClassifier'			with: [ spec repository: 'github://pharo-ai/NaiveBayesClassifier/src' ].
 			spec
-				group: 'Core' 						with: #('MLHierarchicalClustering' 'MLkNN' 'KMeans' 'MLMetrics' 'MLViz' 'APriori' 'NgramModel' 'DecisionTreeModel' 'Tfidf' 'Polyglot'  'StringMetrics' 'RandomPartitioner' 'Datasets' 'NaiveBayesClassifier');
+				group: 'Core' 						with: #('AIHierarchicalClustering' 'AIkNN' 'AIkMeans' 'AIMetrics' 'AIViz' 'APriori' 'NgramModel' 'DecisionTreeModel' 'Tfidf' 'Polyglot'  'StringMetrics' 'RandomPartitioner' 'Datasets' 'NaiveBayesClassifier');
 				group: 'default' 					with: #('Core') ]
 ]
