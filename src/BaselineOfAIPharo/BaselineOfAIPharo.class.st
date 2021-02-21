@@ -24,9 +24,9 @@ BaselineOfAIPharo >> baseline: spec [
 				baseline: 'Polyglot'							with: [ spec repository: 'github://PolyMathOrg/Polyglot/src' ];
 				baseline: 'StringMetrics'					with: [ spec repository: 'github://pharo-ai/StringMetrics/src' ];
 				baseline: 'RandomPartitioner'				with: [ spec repository: 'github://pharo-ai/RandomPartitioner/src' ];
-				baseline: 'Datasets'							with: [ spec repository: 'github://pharo-ai/Datasets/' ];
+				baseline: 'AIDatasets'						with: [ spec repository: 'github://pharo-ai/Datasets/' ];
 				baseline: 'NaiveBayesClassifier'			with: [ spec repository: 'github://pharo-ai/NaiveBayesClassifier/src' ].
 			spec
-				group: 'Core' 						with: #('AIHierarchicalClustering' 'AIkNN' 'AIKMeans' 'AIMetrics' 'AIViz' 'APriori' 'NgramModel' 'DecisionTreeModel' 'Tfidf' 'Polyglot'  'StringMetrics' 'RandomPartitioner' 'Datasets' 'NaiveBayesClassifier');
+				group: 'Core' 						with: #('AIHierarchicalClustering' 'AIkNN' 'AIKMeans' 'AIMetrics' 'AIViz' 'APriori' 'NgramModel' 'DecisionTreeModel' 'Tfidf' 'Polyglot'  'StringMetrics' 'RandomPartitioner' 'AIDatasets' 'NaiveBayesClassifier');
 				group: 'default' 					with: #('Core') ]
 ]
