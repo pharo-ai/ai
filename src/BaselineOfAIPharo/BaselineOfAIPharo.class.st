@@ -19,12 +19,12 @@ BaselineOfAIPharo >> baseline: spec [
 				baseline: 'APriori'							with: [ spec repository: 'github://pharo-ai/APriori/src' ];
 				baseline: 'AINLP'								with: [ spec repository: 'github://pharo-ai/nlp/src' ];
 				baseline: 'AINormalization'					with: [ spec repository: 'github://pharo-ai/normalization/src' ];
-				baseline: 'DecisionTreeModel'				with: [ spec repository: 'github://pharo-ai/DecisionTreeModel/src' ];
-				baseline: 'Tfidf'								with: [ spec repository: 'github://pharo-ai/TF-IDF/src' ];
+				baseline: 'DecisionTreeModel'				with: [ spec repository: 'github://pharo-ai/decision-tree-model/src' ];
+				baseline: 'Tfidf'								with: [ spec repository: 'github://pharo-ai/tf-idf/src' ];
 				baseline: 'StringMetrics'					with: [ spec repository: 'github://pharo-ai/StringMetrics/src' ];
-				baseline: 'RandomPartitioner'				with: [ spec repository: 'github://pharo-ai/RandomPartitioner/src' ];
+				baseline: 'RandomPartitioner'				with: [ spec repository: 'github://pharo-ai/random-partitioner/src' ];
 				baseline: 'AIDatasets'						with: [ spec repository: 'github://pharo-ai/Datasets/' ];
-				baseline: 'NaiveBayesClassifier'			with: [ spec repository: 'github://pharo-ai/NaiveBayesClassifier/src' ].
+				baseline: 'NaiveBayesClassifier'			with: [ spec repository: 'github://pharo-ai/naive-bayes-classifier/src' ].
 			spec
 				group: 'Core' 						with: #('AIHierarchicalClustering' 'AIkNN' 'AIKMeans' 'AIMetrics' 'AIViz' 'APriori' 'DecisionTreeModel' 'Tfidf' 'StringMetrics' 'RandomPartitioner' 'AIDatasets' 'NaiveBayesClassifier');
 				group: 'default' 					with: #('Core') ]
