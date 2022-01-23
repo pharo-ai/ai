@@ -33,7 +33,7 @@ If you are new to baselines and Metacello, check out the [Baselines](https://git
 
 ### Machine Learning
 
-| Name | Chapter | README with "how to use" | Coverage | CI Status | Dependencies | Issues | PRs |
+| Name | Chapter | "How to use" | Coverage | CI Status | Dependencies | Issues | PRs |
 |---|---|---|---|---|---|---|---|
 | [Linear Regression](https://github.com/pharo-ai/linear-models) | WiP | Yes | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/linear-models/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/linear-models?branch=master) | [![Build status](https://github.com/pharo-ai/linear-models/workflows/CI/badge.svg)](https://github.com/pharo-ai/linear-regression/actions/workflows/test.yml) |  | 3 | 0 |
 | [Logistic Regression](https://github.com/pharo-ai/linear-models) | No | Yes | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/linear-models/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/linear-models?branch=master) | [![Build status](https://github.com/pharo-ai/linear-models/workflows/CI/badge.svg)](https://github.com/pharo-ai/linear-regression/actions/workflows/test.yml) |  | -//- | -//- |
@@ -45,13 +45,13 @@ If you are new to baselines and Metacello, check out the [Baselines](https://git
 
 ### Data Mining
 
-| Name | Chapter | README with "how to use" | Coverage | CI Status | Dependencies | Issues | PRs |
+| Name | Chapter | "How to use" | Coverage | CI Status | Dependencies | Issues | PRs |
 |---|---|---|---|---|---|---|---|
 | [A-Priori](https://github.com/pharo-ai/APriori) | Yes | Yes | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/APriori/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/APriori?branch=master) | [![Build status](https://github.com/pharo-ai/APriori/workflows/CI/badge.svg)](https://github.com/pharo-ai/APriori/actions/workflows/test.yml) | [ContainersOrderedSet](https://github.com/pharo-containers/Containers-OrderedSet) | 2 | 1 |
 
 ### Natural Language Processing
 
-| Name | Chapter | README with "how to use" | Coverage | CI Status | Dependencies | Issues | PRs |
+| Name | Chapter | "How to use" | Coverage | CI Status | Dependencies | Issues | PRs |
 |---|---|---|---|---|---|---|---|
 | [N-gram Model](https://github.com/pharo-ai/NgramModel) | No | Yes* | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/NgramModel/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/NgramModel?branch=master) | [![Build status](https://github.com/pharo-ai/NgramModel/workflows/CI/badge.svg)](https://github.com/pharo-ai/NgramModel/actions/workflows/test.yml) | [AINgram](https://github.com/pharo-ai/ngram) | 8 | 0 |
 | [Term Frequency - Inverse Document Frequency](https://github.com/pharo-ai/tf-idf) | Yes | Yes | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/tf-idf/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/tf-idf?branch=master) | [![Build status](https://github.com/pharo-ai/tf-idf/workflows/CI/badge.svg)](https://github.com/pharo-ai/tf-idf/actions/workflows/test.yml) |  | 0 | 0 |
