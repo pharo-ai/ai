@@ -47,7 +47,7 @@ If you are new to baselines and Metacello, check out the [Baselines](https://git
 
 | Name | Chapter | README with "how to use" | Coverage | CI Status | Dependencies | Issues | PRs |
 |---|---|---|---|---|---|---|---|
-| [A-Priori](https://github.com/pharo-ai/APriori) | Yes | Yes | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/APriori/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/APriori?branch=master) | [![Build status](https://github.com/pharo-ai/APriori/workflows/CI/badge.svg)](https://github.com/pharo-ai/APriori/actions/workflows/test.yml) | [ContainersOrderedSet](https://github.com/pharo-containers/Containers-OrderedSet) |  |  |
+| [A-Priori](https://github.com/pharo-ai/APriori) | Yes | Yes | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/APriori/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/APriori?branch=master) | [![Build status](https://github.com/pharo-ai/APriori/workflows/CI/badge.svg)](https://github.com/pharo-ai/APriori/actions/workflows/test.yml) | [ContainersOrderedSet](https://github.com/pharo-containers/Containers-OrderedSet) | 2 | 1 |
 
 ### Natural Language Processing
 
