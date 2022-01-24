@@ -61,6 +61,7 @@ If you are new to baselines and Metacello, check out the [Baselines](https://git
 | Name | Chapter | "How to use" | Tests | Coverage | CI Status | Dependencies | Issues | PRs |
 |---|---|---|---|---|---|---|---|---|
 | [Random Partitioner](https://github.com/pharo-ai/random-partitioner) | No | Yes | 7 | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/RandomPartitioner/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/RandomPartitioner?branch=master) | [![Build status](https://github.com/pharo-ai/RandomPartitioner/workflows/CI/badge.svg)](https://github.com/pharo-ai/RandomPartitioner/actions/workflows/test.yml) | [DataFrame](https://github.com/PolyMathOrg/DataFrame) | 1 | 0 |
+| [Normalization](https://github.com/pharo-ai/normalization) | No | Yes | 6 | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/normalization/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/normalization?branch=master) | [![Build status](https://github.com/pharo-ai/normalization/workflows/CI/badge.svg)](https://github.com/pharo-ai/normalization/actions/workflows/test.yml) | None | 0 | 0 |
 
 ### Metrics
 
