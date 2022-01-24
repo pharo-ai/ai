@@ -67,7 +67,8 @@ If you are new to baselines and Metacello, check out the [Baselines](https://git
 
 | Name | Chapter | "How to use" | Tests | Coverage | CI Status | Dependencies | Issues | PRs |
 |---|---|---|---|---|---|---|---|---|
-| [Edit Distances](https://github.com/pharo-ai/edit-distances) | No | Yes | 543 | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/edit-distances/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/edit-distances?branch=master) | [![Build status](https://github.com/pharo-ai/edit-distances/workflows/CI/badge.svg)](https://github.com/pharo-ai/edit-distances/actions/workflows/test.yml) | [PolyMath](https://github.com/PolyMathOrg/PolyMath) | 10 | 0 |
+| [Metrics](https://github.com/pharo-ai/metrics) | No | Yes | 22 | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/metrics/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/metrics?branch=master) | [![Build status](https://github.com/pharo-ai/metrics/workflows/CI/badge.svg)](https://github.com/pharo-ai/metrics/actions/workflows/test.yml) | [PolyMath](https://github.com/PolyMathOrg/PolyMath) | 10 | 0 |
+| [Edit Distances](https://github.com/pharo-ai/edit-distances) | No | Yes | 543 | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/edit-distances/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/edit-distances?branch=master) | [![Build status](https://github.com/pharo-ai/edit-distances/workflows/CI/badge.svg)](https://github.com/pharo-ai/edit-distances/actions/workflows/test.yml) | [PolyMath](https://github.com/PolyMathOrg/PolyMath) | 5 | 0 |
 
 ### Applications
 
