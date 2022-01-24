@@ -67,10 +67,13 @@ If you are new to baselines and Metacello, check out the [Baselines](https://git
 
 ### Applications
 
-| Name | Chapter | "How to use" | Tests | Coverage | CI Status | Dependencies | Issues | PRs |
-|---|---|---|---|---|---|---|---|---|
-| [Spelling Correction](https://github.com/pharo-ai/spelling-correction) | No | Yes | 7 | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/spelling-correction/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/spelling-correction?branch=master) | [![Build status](https://github.com/pharo-ai/spelling-correction/workflows/CI/badge.svg)](https://github.com/pharo-ai/spelling-correction/actions/workflows/test.yml) | None | 0 | 0 |
+| Name | "How to use" | Tests | Coverage | CI Status | Dependencies | Issues | PRs |
+|---|---|---|---|---|---|---|---|
+| [Spelling Correction](https://github.com/pharo-ai/spelling-correction) | Yes | 7 | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/spelling-correction/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/spelling-correction?branch=master) | [![Build status](https://github.com/pharo-ai/spelling-correction/workflows/CI/badge.svg)](https://github.com/pharo-ai/spelling-correction/actions/workflows/test.yml) | None | 0 | 0 |
 
 
 ### Other
 
+| Name | "How to use" | Tests | Coverage | CI Status | Dependencies | Issues | PRs |
+|---|---|---|---|---|---|---|---|
+| [Datasets](https://github.com/pharo-ai/Datasets) | Yes | 10 | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/Datasets/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/Datasets?branch=master) | [![Build status](https://github.com/pharo-ai/Datasets/workflows/CI/badge.svg)](https://github.com/pharo-ai/Datasets/actions/workflows/test.yml) | [DataFrame](https://github.com/PolyMathOrg/DataFrame) | 1 | 0 |
