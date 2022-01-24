@@ -65,6 +65,10 @@ If you are new to baselines and Metacello, check out the [Baselines](https://git
 
 ### Metrics
 
+| Name | Chapter | "How to use" | Tests | Coverage | CI Status | Dependencies | Issues | PRs |
+|---|---|---|---|---|---|---|---|---|
+| [Edit Distances](https://github.com/pharo-ai/edit-distances) | No | Yes | 543 | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/edit-distances/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/edit-distances?branch=master) | [![Build status](https://github.com/pharo-ai/edit-distances/workflows/CI/badge.svg)](https://github.com/pharo-ai/edit-distances/actions/workflows/test.yml) | [PolyMath](https://github.com/PolyMathOrg/PolyMath) | 10 | 0 |
+
 ### Applications
 
 | Name | "How to use" | Tests | Coverage | CI Status | Dependencies | Issues | PRs |
