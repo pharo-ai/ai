@@ -55,3 +55,14 @@ If you are new to baselines and Metacello, check out the [Baselines](https://git
 |---|---|---|---|---|---|---|---|---|
 | [N-gram Model](https://github.com/pharo-ai/NgramModel) | No | Yes* | 30 | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/NgramModel/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/NgramModel?branch=master) | [![Build status](https://github.com/pharo-ai/NgramModel/workflows/CI/badge.svg)](https://github.com/pharo-ai/NgramModel/actions/workflows/test.yml) | [AINgram](https://github.com/pharo-ai/ngram) | 8 | 0 |
 | [Term Frequency - Inverse Document Frequency](https://github.com/pharo-ai/tf-idf) | Yes | Yes | 7 | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/tf-idf/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/tf-idf?branch=master) | [![Build status](https://github.com/pharo-ai/tf-idf/workflows/CI/badge.svg)](https://github.com/pharo-ai/tf-idf/actions/workflows/test.yml) | None | 0 | 0 |
+
+### Data Preprocessing
+
+| Name | Chapter | "How to use" | Tests | Coverage | CI Status | Dependencies | Issues | PRs |
+|---|---|---|---|---|---|---|---|---|
+| [Random Partitioner](https://github.com/pharo-ai/random-partitioner) | No | Yes | 7 | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/RandomPartitioner/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/RandomPartitioner?branch=master) | [![Build status](https://github.com/pharo-ai/RandomPartitioner/workflows/CI/badge.svg)](https://github.com/pharo-ai/RandomPartitioner/actions/workflows/test.yml) | [DataFrame](https://github.com/PolyMathOrg/DataFrame) | 1 | 0 |
+
+### Metrics
+
+### Others
+
