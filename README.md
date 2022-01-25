@@ -64,6 +64,12 @@ If you are new to baselines and Metacello, check out the [Baselines](https://git
 | [Random Partitioner](https://github.com/pharo-ai/random-partitioner) | No | Yes | 7 | [![Coverage Status](https://coveralls.io/repos/github/PharoAI/RandomPartitioner/badge.svg?branch=master)](https://coveralls.io/github/PharoAI/RandomPartitioner?branch=master) | [![Build status](https://github.com/pharo-ai/RandomPartitioner/workflows/CI/badge.svg)](https://github.com/pharo-ai/RandomPartitioner/actions/workflows/test.yml) | [DataFrame](https://github.com/PolyMathOrg/DataFrame) | 1 | 0 |
 | [Normalization](https://github.com/pharo-ai/normalization) | No | Yes | 6 | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/normalization/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/normalization?branch=master) | [![Build status](https://github.com/pharo-ai/normalization/workflows/CI/badge.svg)](https://github.com/pharo-ai/normalization/actions/workflows/test.yml) | None | 0 | 0 |
 
+### Datasets
+
+| Name | "How to use" | Tests | Coverage | CI Status | Dependencies | Issues | PRs |
+|---|---|---|---|---|---|---|---|
+| [Datasets](https://github.com/pharo-ai/Datasets) | Yes | 10 | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/Datasets/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/Datasets?branch=master) | [![Build status](https://github.com/pharo-ai/Datasets/workflows/CI/badge.svg)](https://github.com/pharo-ai/Datasets/actions/workflows/test.yml) | [DataFrame](https://github.com/PolyMathOrg/DataFrame) | 1 | 0 |
+
 ### Metrics
 
 | Name | Chapter | "How to use" | Tests | Coverage | CI Status | Dependencies | Issues | PRs |
@@ -77,10 +83,3 @@ If you are new to baselines and Metacello, check out the [Baselines](https://git
 | Name | "How to use" | Tests | Coverage | CI Status | Dependencies | Issues | PRs |
 |---|---|---|---|---|---|---|---|
 | [Spelling Correction](https://github.com/pharo-ai/spelling-correction) | Yes | 7 | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/spelling-correction/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/spelling-correction?branch=master) | [![Build status](https://github.com/pharo-ai/spelling-correction/workflows/CI/badge.svg)](https://github.com/pharo-ai/spelling-correction/actions/workflows/test.yml) | None | 0 | 0 |
-
-
-### Other
-
-| Name | "How to use" | Tests | Coverage | CI Status | Dependencies | Issues | PRs |
-|---|---|---|---|---|---|---|---|
-| [Datasets](https://github.com/pharo-ai/Datasets) | Yes | 10 | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/Datasets/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/Datasets?branch=master) | [![Build status](https://github.com/pharo-ai/Datasets/workflows/CI/badge.svg)](https://github.com/pharo-ai/Datasets/actions/workflows/test.yml) | [DataFrame](https://github.com/PolyMathOrg/DataFrame) | 1 | 0 |
