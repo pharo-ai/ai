@@ -22,8 +22,8 @@ BaselineOfAIPharo >> baselineGroups: spec [
 		group: 'Core'
 		with: #( 'AIDataInspector' 'AIHierarchicalClustering'
 			   'AIkNN' 'AIKMeans' 'AIMetrics' 'AIViz' 'APriori' 'DecisionTreeModel'
-			   'Tfidf' 'RandomPartitioner' 'AIDatasets' 'NaiveBayesClassifier'
-			   'AINLP' 'AIGaussianMixtureModel' 'AIEditDistances' );
+			   'AITfiIdf' 'AIRandomPartitioner' 'AIDatasets' 'NaiveBayesClassifier'
+			   'AINLP' 'AIGaussianMixtureModel' 'AIEditDistances' 'AIGraphAlgorithms' );
 		group: 'default' with: #( 'Core' )
 ]
 
@@ -43,13 +43,14 @@ BaselineOfAIPharo >> baselineSpecs: spec [
 		baseline: 'AINormalization' with: [ spec repository: 'github://pharo-ai/normalization/src' ];
 		baseline: 'DecisionTreeModel' with: [ 
 			spec repository: 'github://pharo-ai/decision-tree-model/src' ];
-		baseline: 'Tfidf' with: [ spec repository: 'github://pharo-ai/tf-idf/src' ];
-		baseline: 'RandomPartitioner' with: [
+		baseline: 'AITfIdf' with: [ spec repository: 'github://pharo-ai/tf-idf/src' ];
+		baseline: 'AIRandomPartitioner' with: [
 			spec repository: 'github://pharo-ai/random-partitioner/src' ];
 		baseline: 'AIDatasets' with: [ spec repository: 'github://pharo-ai/Datasets/' ];
 		baseline: 'AIGaussianMixtureModel' with: [ 
 			spec repository: 'github://pharo-ai/gaussian-mixture-model/' ];
 		baseline: 'NaiveBayesClassifier' with: [ 
 			spec repository: 'github://pharo-ai/naive-bayes-classifier/src' ];
-		baseline: 'AIEditDistances' with: [ spec repository: 'github://pharo-ai/edit-distances/src' ]
+		baseline: 'AIEditDistances' with: [ spec repository: 'github://pharo-ai/edit-distances/src' ];
+    	baseline: 'AIGraphAlgorithms' with: [ spec repository: 'github://pharo-ai/graph-algorithms' ]
 ]
