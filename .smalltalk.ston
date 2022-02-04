@@ -4,6 +4,10 @@ SmalltalkCISpec {
       #baseline : 'AIPharo',
       #directory : 'src',
       #platforms : [ #pharo ]
+    },
+  #testing : {
+    #include : {
+      #classes : [ #ReleaseTest ]
     }
   ]
 }
