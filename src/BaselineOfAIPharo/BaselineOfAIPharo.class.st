@@ -22,7 +22,7 @@ BaselineOfAIPharo >> baselineGroups: spec [
 		group: 'Core'
 		with: #( 'AIDataInspector' 'AIHierarchicalClustering'
 			   'AIkNN' 'AIKMeans' 'AIMetrics' 'AIViz' 'APriori' 'DecisionTreeModel'
-			   'AITfiIdf' 'AIRandomPartitioner' 'AIDatasets' 'NaiveBayesClassifier'
+			   'AITfIdf' 'AIRandomPartitioner' 'AIDatasets' 'NaiveBayesClassifier'
 			   'AINLP' 'AIGaussianMixtureModel' 'AIEditDistances' 'AIGraphAlgorithms' );
 		group: 'default' with: #( 'Core' )
 ]
