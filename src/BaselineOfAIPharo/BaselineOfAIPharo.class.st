@@ -23,7 +23,8 @@ BaselineOfAIPharo >> baselineGroups: spec [
 		with: #( 'AIDataInspector' 'AIHierarchicalClustering'
 			   'AIkNN' 'AIKMeans' 'AIMetrics' 'AIViz' 'APriori' 'DecisionTreeModel'
 			   'AITfIdf' 'AIRandomPartitioner' 'AIDatasets' 'NaiveBayesClassifier'
-			   'AINLP' 'AIGaussianMixtureModel' 'AIEditDistances' 'AIGraphAlgorithms' );
+			   'AINLP' 'AIGaussianMixtureModel' 'AIEditDistances' 'AIGraphAlgorithms' 
+				'AILinearModels');
 		group: 'default' with: #( 'Core' )
 ]
 
@@ -52,5 +53,6 @@ BaselineOfAIPharo >> baselineSpecs: spec [
 		baseline: 'NaiveBayesClassifier' with: [ 
 			spec repository: 'github://pharo-ai/naive-bayes-classifier/src' ];
 		baseline: 'AIEditDistances' with: [ spec repository: 'github://pharo-ai/edit-distances/src' ];
-    	baseline: 'AIGraphAlgorithms' with: [ spec repository: 'github://pharo-ai/graph-algorithms' ]
+    	baseline: 'AIGraphAlgorithms' with: [ spec repository: 'github://pharo-ai/graph-algorithms' ];
+		baseline: 'AILinearModels' with: [ spec repository: 'github://pharo-ai/linear-models/src' ]
 ]
