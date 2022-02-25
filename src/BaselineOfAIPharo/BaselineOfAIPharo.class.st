@@ -1,3 +1,6 @@
+"
+Metabaseline for pharo ai projects.
+"
 Class {
 	#name : #BaselineOfAIPharo,
 	#superclass : #BaselineOf,
@@ -21,7 +24,7 @@ BaselineOfAIPharo >> baselineGroups: spec [
 	spec
 		group: 'Core'
 		with: #( 'AIDataInspector' 'AIHierarchicalClustering'
-			   'AIkNN' 'AIKMeans' 'AIMetrics' 'AIViz' 'APriori' 'DecisionTreeModel'
+			   'AIkNN' 'AIKMeans' 'AIMetrics' 'APriori' 'DecisionTreeModel'
 			   'AITfIdf' 'AIRandomPartitioner' 'AIDatasets' 'AINaiveBayesClassifier'
 			   'AINLP' 'AIGaussianMixtureModel' 'AIEditDistances' 'AIGraphAlgorithms' 
 				'AILinearModels');
@@ -38,7 +41,6 @@ BaselineOfAIPharo >> baselineSpecs: spec [
 		baseline: 'AIkNN' with: [ spec repository: 'github://pharo-ai/kNN/src' ];
 		baseline: 'AIKMeans' with: [ spec repository: 'github://pharo-ai/k-means/src' ];
 		baseline: 'AIMetrics' with: [ spec repository: 'github://pharo-ai/metrics/src' ];
-		baseline: 'AIViz' with: [ spec repository: 'github://pharo-ai/viz/src' ];
 		baseline: 'APriori' with: [ spec repository: 'github://pharo-ai/APriori/src' ];
 		baseline: 'AINLP' with: [ spec repository: 'github://pharo-ai/nlp/src' ];
 		baseline: 'AINormalization' with: [ spec repository: 'github://pharo-ai/normalization/src' ];
