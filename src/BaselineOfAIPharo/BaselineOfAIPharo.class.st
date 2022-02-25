@@ -50,9 +50,9 @@ BaselineOfAIPharo >> baselineSpecs: spec [
 		baseline: 'AIDatasets' with: [ spec repository: 'github://pharo-ai/Datasets/' ];
 		baseline: 'AIGaussianMixtureModel' with: [ 
 			spec repository: 'github://pharo-ai/gaussian-mixture-model/' ];
-		baseline: 'NaiveBayesClassifier' with: [ 
+		baseline: 'AINaiveBayesClassifier' with: [ 
 			spec repository: 'github://pharo-ai/naive-bayes-classifier/src' ];
 		baseline: 'AIEditDistances' with: [ spec repository: 'github://pharo-ai/edit-distances/src' ];
-    	baseline: 'AIGraphAlgorithms' with: [ spec repository: 'github://pharo-ai/graph-algorithms' ];
+    	        baseline: 'AIGraphAlgorithms' with: [ spec repository: 'github://pharo-ai/graph-algorithms' ];
 		baseline: 'AILinearModels' with: [ spec repository: 'github://pharo-ai/linear-models/src' ]
 ]
