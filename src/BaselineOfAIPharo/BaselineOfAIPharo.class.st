@@ -23,7 +23,7 @@ BaselineOfAIPharo >> baselineGroups: spec [
 
 	spec
 		group: 'Core'
-		with: #( 'AIDataInspector' 'AIHierarchicalClustering'
+		with: #( 'AIDataFrameInspector' 'AIHierarchicalClustering'
 			   'AIkNN' 'AIKMeans' 'AIMetrics' 'APriori' 'DecisionTreeModel'
 			   'AITfIdf' 'AIRandomPartitioner' 'AIDatasets' 'AINaiveBayesClassifier'
 			   'AINLP' 'AIGaussianMixtureModel' 'AIEditDistances' 'AIGraphAlgorithms' 
@@ -35,7 +35,7 @@ BaselineOfAIPharo >> baselineGroups: spec [
 BaselineOfAIPharo >> baselineSpecs: spec [
 
 	spec
-		baseline: 'AIDataInspector' with: [ spec repository: 'github://pharo-ai/data-inspector/src' ];
+		baseline: 'AIDataFrameInspector' with: [ spec repository: 'github://pharo-ai/data-inspector/src' ];
 		baseline: 'AIHierarchicalClustering' with: [ 
 			spec repository: 'github://pharo-ai/hierarchical-clustering/src' ];
 		baseline: 'AIkNN' with: [ spec repository: 'github://pharo-ai/kNN/src' ];
