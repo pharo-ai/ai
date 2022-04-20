@@ -49,7 +49,7 @@ BaselineOfAIPharo >> baselineSpecs: spec [
 		baseline: 'AITfIdf' with: [ spec repository: 'github://pharo-ai/tf-idf/src' ];
 		baseline: 'AIRandomPartitioner' with: [
 			spec repository: 'github://pharo-ai/random-partitioner/src' ];
-		baseline: 'AIDatasets' with: [ spec repository: 'github://pharo-ai/Datasets/' ];
+		baseline: 'AIDatasets' with: [ spec repository: 'github://pharo-ai/datasets/' ];
 		baseline: 'AIGaussianMixtureModel' with: [ 
 			spec repository: 'github://pharo-ai/gaussian-mixture-model/' ];
 		baseline: 'AINaiveBayesClassifier' with: [ 
