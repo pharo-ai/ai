@@ -14,6 +14,7 @@ EpMonitor disableDuring: [
         baseline: 'AIPharo';
         repository: 'github://pharo-ai/ai/src';
 	onWarningLog;
+	onConflictUseIncoming;
         load ]
 ```
 
