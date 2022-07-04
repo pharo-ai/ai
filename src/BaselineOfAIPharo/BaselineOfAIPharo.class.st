@@ -39,7 +39,7 @@ BaselineOfAIPharo >> baselineSpecs: spec [
 		baseline: 'AIKNearestNeighbors' with: [ spec repository: 'github://pharo-ai/k-nearest-neighbors/src' ];
 		baseline: 'AIKMeans' with: [ spec repository: 'github://pharo-ai/k-means/src' ];
 		baseline: 'AIMetrics' with: [ spec repository: 'github://pharo-ai/metrics/src' ];
-		baseline: 'APriori' with: [ spec repository: 'github://pharo-ai/APriori/src' ];
+		baseline: 'AIAPriori' with: [ spec repository: 'github://pharo-ai/APriori/src' ];
 		baseline: 'AINLP' with: [ spec repository: 'github://pharo-ai/nlp/src' ];
 		baseline: 'AINormalization' with: [ spec repository: 'github://pharo-ai/normalization/src' ];
 		baseline: 'DecisionTreeModel' with: [ spec repository: 'github://pharo-ai/decision-tree-model/src' ];
