@@ -2,11 +2,11 @@ SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'AIPharo',
-      #directory : 'src',
-      #platforms : [ #pharo ]
+      #directory : 'src'
     }
   ],
   #testing : {
-    #failOnZeroTests : false
-  }
+    #include : {
+      #packages : [ 'AI-.*' ]
+    },
 }
