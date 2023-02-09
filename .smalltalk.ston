@@ -8,5 +8,5 @@ SmalltalkCISpec {
   #testing : {
     #include : {
       #packages : [ 'AI-.*' ]
-    },
+    }
 }
