@@ -46,7 +46,6 @@ BaselineOfAIPharo >> baselineSpecs: spec [
 		baseline: 'AITfIdf' with: [ spec repository: 'github://pharo-ai/tf-idf/src' ];
 		baseline: 'AIRandomPartitioner' with: [ spec repository: 'github://pharo-ai/random-partitioner/src' ];
 		baseline: 'AIDatasets' with: [ spec repository: 'github://pharo-ai/datasets/' ];
-		baseline: 'AIGaussianMixtureModel' with: [ spec repository: 'github://pharo-ai/gaussian-mixture-model/' ];
 		baseline: 'AINaiveBayesClassifier' with: [ spec repository: 'github://pharo-ai/naive-bayes-classifier/src' ];
 		baseline: 'AIEditDistances' with: [ spec repository: 'github://pharo-ai/edit-distances/src' ];
     	baseline: 'AIGraphAlgorithms' with: [ spec repository: 'github://pharo-ai/graph-algorithms' ];
