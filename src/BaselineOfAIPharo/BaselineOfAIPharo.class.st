@@ -22,10 +22,10 @@ BaselineOfAIPharo >> baselineGroups: spec [
 
 	spec
 		group: 'Core'
-		with: #( 'AIDataFrameInspector' 'AIHierarchicalClustering' 'AIKNearestNeighbors' 'AIKMeans'
+		with: #( 'AIDataFrameInspector' 'AIKNearestNeighbors' 'AIKMeans'
 			     'AIMetrics' 'AIAPriori' 'DecisionTreeModel' 'AITfIdf'
 				 'AIRandomPartitioner' 'AIDatasets' 'AINaiveBayesClassifier' 'AINLP'
-				 'AIGaussianMixtureModel' 'AIEditDistances' 'AIGraphAlgorithms' 'AILinearModels'
+				 'AIEditDistances' 'AIGraphAlgorithms' 'AILinearModels'
 				 'AINormalization' );
 		group: 'default' with: #( 'Core' )
 ]
@@ -35,7 +35,6 @@ BaselineOfAIPharo >> baselineSpecs: spec [
 
 	spec
 		baseline: 'AIDataFrameInspector' with: [ spec repository: 'github://pharo-ai/data-inspector/src' ];
-		baseline: 'AIHierarchicalClustering' with: [ spec repository: 'github://pharo-ai/hierarchical-clustering/src' ];
 		baseline: 'AIKNearestNeighbors' with: [ spec repository: 'github://pharo-ai/k-nearest-neighbors/src' ];
 		baseline: 'AIKMeans' with: [ spec repository: 'github://pharo-ai/k-means/src' ];
 		baseline: 'AIMetrics' with: [ spec repository: 'github://pharo-ai/metrics/src' ];
