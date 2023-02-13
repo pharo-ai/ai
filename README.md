@@ -1,7 +1,7 @@
 # Pharo-ai: Machine Learning in Pharo
 
 [![Pharo version](https://img.shields.io/badge/Pharo-10-%23aac9ff.svg)](https://pharo.org/download)
-[![CI](https://github.com/pharo-ai/ai/actions/workflows/CI.yml/badge.svg)](https://github.com/pharo-ai/ai/actions/workflows/CI.yml)
+[![CI](https://github.com/pharo-ai/ai/actions/workflows/continuous.yml/badge.svg)](https://github.com/pharo-ai/ai/actions/workflows/continuous.yml)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/PolyMathOrg/PolyMath/master/LICENSE)
 
 
