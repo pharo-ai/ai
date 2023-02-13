@@ -1,9 +1,24 @@
-# Pharo-ai: Machine Learning in Pharo
+# Pharo-AI - Machine Learning in Pharo
 
 [![Pharo version](https://img.shields.io/badge/Pharo-10-%23aac9ff.svg)](https://pharo.org/download)
 [![CI](https://github.com/pharo-ai/ai/actions/workflows/continuous.yml/badge.svg)](https://github.com/pharo-ai/ai/actions/workflows/continuous.yml)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/PolyMathOrg/PolyMath/master/LICENSE)
 
+
+- [Pharo-AI](#pharo-ai---machine-learning-in-pharo)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Implemented Algorithms](#implemented-algorithms)
+    + [Machine Learning](#machine-learning)
+    + [Data Mining](#data-mining)
+    + [Natural Language Processing](#natural-language-processing)
+    + [Data Preprocessing](#data-preprocessing)
+    + [Datasets](#datasets)
+    + [Metrics](#metrics)
+    + [Applications](#applications)
+    + [Tools](#tools)
+    + [Work in Progress](#work-in-progress)
+  * [Pharo-AI and Pharo-Launcher](#pharo-ai-and-pharo-launcher)
 
 ## Description
 
@@ -101,3 +116,58 @@ Machine Learning: 
 |---|---|---|---|---|
 | [Gaussian Mixture Model](https://github.com/pharo-ai/gaussian-mixture-model) | No | No | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/gaussian-mixture-model/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/gaussian-mixture-model?branch=master) | [![Build status](https://github.com/pharo-ai/gaussian-mixture-model/workflows/CI/badge.svg)](https://github.com/pharo-ai/gaussian-mixture-model/actions/workflows/test.yml) | [External Dependencies](https://github.com/pharo-ai/external-dependencies) (PolyMath) |
 | [Hierarchical Clustering](https://github.com/pharo-ai/hierarchical-clustering) | No | No | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/hierarchical-clustering/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/hierarchical-clustering?branch=master) | [![Build status](https://github.com/pharo-ai/hierarchical-clustering/workflows/CI/badge.svg)](https://github.com/pharo-ai/hierarchical-clustering/actions/workflows/test.yml) |  [External Dependencies](https://github.com/pharo-ai/external-dependencies) (DataFrame), [CollectionExtensions](https://github.com/pharo-contributions/CollectionExtensions), [AILinearAlgebra](https://github.com/pharo-ai/linear-algebra) |
+
+## Pharo-AI and Pharo-Launcher
+
+Pharo-launcher is a great tool to manage Pharo images and here we are going to explain how to be able to get pharo-ai images from it. 
+
+Pharo launcher comes with a default set of sources to fetch Pharo images. It also allows one to add its own sources, and we will show here how to add Pharo-AI as one of your own source.
+
+It is doable thanks to the `mysources.list` of pharo-launcher file located in the `PhLUserTemplateSources sourcesFile` folder. If present, this file defines additional template sources beyond the official list of templates. At this time, there is no UI to add them.
+
+To find the right folder:
+
+* Open the Pharo Launcher
+* Open a Playground (Ctrl + O, Ctrl + W)
+* Execute `PhLUserTemplateSources sourcesFile`
+
+You can now edit `mysources.list` in this folder to add the Pharo-AI images you wish to have in your Pharo launcher. Here is an example:
+
+```st
+[
+	PhLTemplateSource {
+		#type : #URLGroup,
+		#name : 'Pharo-AI',
+		#templates : [
+			PhLTemplateSource {
+				#type : #URL,
+				#name : 'AI Pharo 10 - master',
+				#url : 'https://github.com/pharo-ai/ai/releases/download/continuous/Pharo-AI-Pharo64-10.zip'
+			},
+			PhLTemplateSource {
+				#type : #URL,
+				#name : 'AI Pharo 11 - master',
+				#url : 'https://github.com/pharo-ai/ai/releases/download/continuous/Pharo-AI-Pharo64-11.zip'
+			},
+			PhLTemplateSource {
+				#type : #URL,
+				#name : 'AI Pharo 10 - v0.8.0',
+				#url : 'https://github.com/pharo-ai/ai/releases/download/v0.8.0/Pharo-AI-Pharo64-10.zip'
+			},
+			PhLTemplateSource {
+				#type : #URL,
+				#name : 'AI Pharo 11 - v0.8.0',
+				#url : 'https://github.com/pharo-ai/ai/releases/download/v0.8.0/Pharo-AI-Pharo64-11.zip'
+			}
+		]
+	}
+]
+```
+
+This templates will add a Pharo-AI group in the templates of the Pharo-Launcher. This group will contain 4 entries:
+- Pharo AI built from the latest commit of master in Pharo 10
+- Pharo AI built from the latest commit of master in Pharo 11
+- Pharo AI built from release v0.8.0 in Pharo 10
+- Pharo AI built from release v0.8.0 in Pharo 11
+
+You can then adapt those sources to what you need
