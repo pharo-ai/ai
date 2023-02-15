@@ -48,5 +48,6 @@ BaselineOfAIPharo >> baselineSpecs: spec [
 		baseline: 'AINaiveBayesClassifier' with: [ spec repository: 'github://pharo-ai/naive-bayes-classifier/src' ];
 		baseline: 'AIEditDistances' with: [ spec repository: 'github://pharo-ai/edit-distances/src' ];
     	baseline: 'AIGraphAlgorithms' with: [ spec repository: 'github://pharo-ai/graph-algorithms' ];
-		baseline: 'AILinearModels' with: [ spec repository: 'github://pharo-ai/linear-models/src' ]
+		baseline: 'AILinearModels' with: [ spec repository: 'github://pharo-ai/linear-models/src' ];
+		baseline: 'NgramModel' with: [ spec repository: 'github://pharo-ai/NgramModel/src' ]
 ]
