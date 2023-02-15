@@ -73,7 +73,7 @@ If you are new to baselines and Metacello, check out the [Baselines](https://git
 
 | Name | Chapter | "How to use" | Coverage | CI Status | Dependencies |
 |---|---|---|---|---|---|
-| [N-gram Model](https://github.com/pharo-ai/NgramModel) | No | Yes* | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/NgramModel/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/NgramModel?branch=master) | [![Build status](https://github.com/pharo-ai/NgramModel/workflows/CI/badge.svg)](https://github.com/pharo-ai/NgramModel/actions/workflows/test.yml) | [AINgram](https://github.com/pharo-ai/ngram) |
+| [N-gram Model](https://github.com/pharo-ai/NgramModel) | No | Yes* | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/NgramModel/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/NgramModel?branch=master) | [![Build status](https://github.com/pharo-ai/NgramModel/workflows/CI/badge.svg)](https://github.com/pharo-ai/NgramModel/actions/workflows/test.yml) |  |
 | [Term Frequency - Inverse Document Frequency](https://github.com/pharo-ai/tf-idf) | Yes | Yes | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/tf-idf/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/tf-idf?branch=master) | [![Build status](https://github.com/pharo-ai/tf-idf/workflows/CI/badge.svg)](https://github.com/pharo-ai/tf-idf/actions/workflows/test.yml) | None |
 
 ### Data Preprocessing
