@@ -28,5 +28,5 @@ BaselineOfAIPharo >> baseline: spec [
 			baseline: 'AIEditDistances' with: [ spec repository: 'github://pharo-ai/edit-distances/src' ];
 			baseline: 'AIGraphAlgorithms' with: [ spec repository: 'github://pharo-ai/graph-algorithms' ];
 			baseline: 'AILinearModels' with: [ spec repository: 'github://pharo-ai/linear-models/src' ];
-			baseline: 'NgramModel' with: [ spec repository: 'github://pharo-ai/NgramModel/src' ] ]
+			baseline: 'AINgramModel' with: [ spec repository: 'github://pharo-ai/NgramModel/src' ] ]
 ]
