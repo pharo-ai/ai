@@ -80,7 +80,7 @@ If you are new to baselines and Metacello, check out the [Baselines](https://git
 
 | Name | Chapter | "How to use" | Coverage | CI Status | Dependencies |
 |---|---|---|---|---|---|
-| [Random Partitioner](https://github.com/pharo-ai/random-partitioner) | No | Yes | [![Coverage Status](https://coveralls.io/repos/github/PharoAI/RandomPartitioner/badge.svg?branch=master)](https://coveralls.io/github/PharoAI/RandomPartitioner?branch=master) | [![Build status](https://github.com/pharo-ai/RandomPartitioner/workflows/CI/badge.svg)](https://github.com/pharo-ai/RandomPartitioner/actions/workflows/test.yml) | None |
+| [Data Partitioners](https://github.com/pharo-ai/data-partitioners) | No | Yes | [![Coverage Status](https://coveralls.io/repos/github/PharoAI/DataPartitioners/badge.svg?branch=master)](https://coveralls.io/github/PharoAI/DataPartitioners?branch=master) | [![CI](https://github.com/pharo-ai/data-partitioners/actions/workflows/cimatrix.yml/badge.svg)](https://github.com/pharo-ai/data-partitioners/actions/workflows/cimatrix.yml) | None |
 | [Normalization](https://github.com/pharo-ai/normalization) | No | Yes | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/normalization/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/normalization?branch=master) | [![Build status](https://github.com/pharo-ai/normalization/workflows/CI/badge.svg)](https://github.com/pharo-ai/normalization/actions/workflows/test.yml) | None |
 
 ### Datasets
