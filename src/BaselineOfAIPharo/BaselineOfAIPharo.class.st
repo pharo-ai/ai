@@ -22,7 +22,7 @@ BaselineOfAIPharo >> baseline: spec [
 			baseline: 'AINormalization' with: [ spec repository: 'github://pharo-ai/normalization/src' ];
 			baseline: 'AIDecisionTreeModel' with: [ spec repository: 'github://pharo-ai/decision-tree-model/src' ];
 			baseline: 'AITfIdf' with: [ spec repository: 'github://pharo-ai/tf-idf/src' ];
-			baseline: 'AIRandomPartitioner' with: [ spec repository: 'github://pharo-ai/random-partitioner/src' ];
+			baseline: 'AIDataPartitioners' with: [ spec repository: 'github://pharo-ai/data-partitioners/src' ];
 			baseline: 'AIDatasets' with: [ spec repository: 'github://pharo-ai/datasets/' ];
 			baseline: 'AINaiveBayesClassifier' with: [ spec repository: 'github://pharo-ai/naive-bayes-classifier/src' ];
 			baseline: 'AIEditDistances' with: [ spec repository: 'github://pharo-ai/edit-distances/src' ];
