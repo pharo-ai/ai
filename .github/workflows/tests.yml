@@ -1,10 +1,5 @@
 name: CI
 
-env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the development branch
 on:
   push:
     branches:
@@ -16,8 +11,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      PROJECT_NAME: Pharo-AI-${{ matrix.smalltalk }}
     strategy:
       matrix:
         smalltalk: [ Pharo64-10, Pharo64-11 ]
@@ -26,7 +19,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
-          smalltalk-version: ${{ matrix.smalltalk }}
+          smalltalk-image: ${{ matrix.smalltalk }}
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
         timeout-minutes: 15
