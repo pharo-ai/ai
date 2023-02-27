@@ -23,7 +23,9 @@
 
 ## Description
 
-A meta package to load all related Machine Learning libraries in Pharo
+A meta package to load all related Machine Learning libraries in Pharo.
+
+For more information about the naming convention or the requirement to be integrated in Pharo-AI, refere to the [Contribution file](CONTRIBUTION.md).
 
 ## Installation
 
