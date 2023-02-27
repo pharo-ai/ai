@@ -65,5 +65,6 @@ In order to be integrated in the version 1 of Pharo-ai, all projects must follow
 - Have tests
 - Have a good code coverage
 - Have a documentation in the folder `./resources/doc` with a general description of the algorithme, a description of the API and at least one concrete example
+- A running CI
 
 For the future releases we want also to have a bigger documentation in the form of booklets or a chapter for a future book
