@@ -96,7 +96,7 @@ If you are new to baselines and Metacello, check out the [Baselines](https://git
 
 | Name | Chapter | "How to use" | Coverage | CI Status | Dependencies |
 |---|---|---|---|---|---|
-| [Metrics](https://github.com/pharo-ai/metrics) | No | Yes | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/metrics/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/metrics?branch=master) | [![Build status](https://github.com/pharo-ai/metrics/workflows/CI/badge.svg)](https://github.com/pharo-ai/metrics/actions/workflows/test.yml) | [External Dependencies](https://github.com/pharo-ai/external-dependencies) (PolyMath) |
+| [Metrics](https://github.com/pharo-ai/metrics) | No | Yes | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/metrics/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/metrics?branch=master) | [![Build status](https://github.com/pharo-ai/metrics/workflows/CI/badge.svg)](https://github.com/pharo-ai/metrics/actions/workflows/test.yml) | [External Dependencies](https://github.com/pharo-ai/external-dependencies) (VectorMatrix) |
 | [Edit Distances](https://github.com/pharo-ai/edit-distances) | No | Yes | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/edit-distances/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/edit-distances?branch=master) | [![Build status](https://github.com/pharo-ai/edit-distances/workflows/CI/badge.svg)](https://github.com/pharo-ai/edit-distances/actions/workflows/test.yml) | None |
 
 ### Applications
