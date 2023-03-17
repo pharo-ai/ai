@@ -23,6 +23,7 @@ BaselineOfAIPharo >> baseline: spec [
 			baseline: 'AIDecisionTreeModel' with: [ spec repository: 'github://pharo-ai/decision-tree-model/src' ];
 			baseline: 'AITfIdf' with: [ spec repository: 'github://pharo-ai/tf-idf/src' ];
 			baseline: 'AIDataPartitioners' with: [ spec repository: 'github://pharo-ai/data-partitioners/src' ];
+			baseline: 'AIDataImputers' with: [ spec repository: 'github://pharo-ai/data-imputers/src' ];
 			baseline: 'AIDatasets' with: [ spec repository: 'github://pharo-ai/datasets/' ];
 			baseline: 'AINaiveBayesClassifier' with: [ spec repository: 'github://pharo-ai/naive-bayes-classifier/src' ];
 			baseline: 'AIEditDistances' with: [ spec repository: 'github://pharo-ai/edit-distances/src' ];
