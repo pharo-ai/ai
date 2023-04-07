@@ -85,6 +85,7 @@ If you are new to baselines and Metacello, check out the [Baselines](https://git
 |---|---|---|---|---|---|
 | [Data Partitioners](https://github.com/pharo-ai/data-partitioners) | No | Yes | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/data-partitioners/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/data-partitioners?branch=master) | [![CI](https://github.com/pharo-ai/data-partitioners/actions/workflows/cimatrix.yml/badge.svg)](https://github.com/pharo-ai/data-partitioners/actions/workflows/cimatrix.yml) | None |
 | [Data Imputers](https://github.com/pharo-ai/data-imputers) | No | Yes | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/data-imputers/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/data-imputers?branch=master) | [![CI](https://github.com/pharo-ai/data-imputers/actions/workflows/ci.yml/badge.svg)](https://github.com/pharo-ai/data-imputers/actions/workflows/ci.yml) | None |
+| [Data Preprocessing](https://github.com/pharo-ai/data-preprocessing) | No | Yes | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/data-preprocessing/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/data-preprocessing?branch=master) | [![CI](https://github.com/pharo-ai/data-preprocessing/actions/workflows/ci.yml/badge.svg)](https://github.com/pharo-ai/data-preprocessing/actions/workflows/ci.yml) | None |
 
 ### Datasets
 
