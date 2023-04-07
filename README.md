@@ -6,20 +6,20 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/PolyMathOrg/PolyMath/master/LICENSE)
 
 
-- [Pharo-AI](#pharo-ai---machine-learning-in-pharo)
-  * [Description](#description)
-  * [Installation](#installation)
-  * [Implemented Algorithms](#implemented-algorithms)
-    + [Machine Learning](#machine-learning)
-    + [Data Mining](#data-mining)
-    + [Natural Language Processing](#natural-language-processing)
-    + [Data Preprocessing](#data-preprocessing)
-    + [Datasets](#datasets)
-    + [Metrics](#metrics)
-    + [Applications](#applications)
-    + [Tools](#tools)
-    + [Work in Progress](#work-in-progress)
-  * [Pharo-AI and Pharo-Launcher](#pharo-ai-and-pharo-launcher)
+- [Pharo-AI - Machine Learning in Pharo](#pharo-ai---machine-learning-in-pharo)
+	- [Description](#description)
+	- [Installation](#installation)
+	- [Implemented Algorithms](#implemented-algorithms)
+		- [Machine Learning](#machine-learning)
+		- [Data Mining](#data-mining)
+		- [Natural Language Processing](#natural-language-processing)
+		- [Data Preprocessing](#data-preprocessing)
+		- [Datasets](#datasets)
+		- [Metrics](#metrics)
+		- [Applications](#applications)
+		- [Tools](#tools)
+		- [Work in Progress](#work-in-progress)
+	- [Pharo-AI and Pharo-Launcher](#pharo-ai-and-pharo-launcher)
 
 ## Description
 
@@ -85,7 +85,6 @@ If you are new to baselines and Metacello, check out the [Baselines](https://git
 |---|---|---|---|---|---|
 | [Data Partitioners](https://github.com/pharo-ai/data-partitioners) | No | Yes | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/data-partitioners/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/data-partitioners?branch=master) | [![CI](https://github.com/pharo-ai/data-partitioners/actions/workflows/cimatrix.yml/badge.svg)](https://github.com/pharo-ai/data-partitioners/actions/workflows/cimatrix.yml) | None |
 | [Data Imputers](https://github.com/pharo-ai/data-imputers) | No | Yes | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/data-imputers/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/data-imputers?branch=master) | [![CI](https://github.com/pharo-ai/data-imputers/actions/workflows/ci.yml/badge.svg)](https://github.com/pharo-ai/data-imputers/actions/workflows/ci.yml) | None |
-| [Normalization](https://github.com/pharo-ai/normalization) | No | Yes | [![Coverage Status](https://coveralls.io/repos/github/pharo-ai/normalization/badge.svg?branch=master)](https://coveralls.io/github/pharo-ai/normalization?branch=master) | [![Build status](https://github.com/pharo-ai/normalization/workflows/CI/badge.svg)](https://github.com/pharo-ai/normalization/actions/workflows/test.yml) | None |
 
 ### Datasets
 

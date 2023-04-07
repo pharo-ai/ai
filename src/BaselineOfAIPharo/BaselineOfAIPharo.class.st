@@ -19,7 +19,6 @@ BaselineOfAIPharo >> baseline: spec [
 			baseline: 'AIMetrics' with: [ spec repository: 'github://pharo-ai/metrics/src' ];
 			baseline: 'AIAPriori' with: [ spec repository: 'github://pharo-ai/APriori/src' ];
 			baseline: 'AINLP' with: [ spec repository: 'github://pharo-ai/nlp/src' ];
-			baseline: 'AINormalization' with: [ spec repository: 'github://pharo-ai/normalization/src' ];
 			baseline: 'AIDecisionTreeModel' with: [ spec repository: 'github://pharo-ai/decision-tree-model/src' ];
 			baseline: 'AITfIdf' with: [ spec repository: 'github://pharo-ai/tf-idf/src' ];
 			baseline: 'AIDataPartitioners' with: [ spec repository: 'github://pharo-ai/data-partitioners/src' ];
