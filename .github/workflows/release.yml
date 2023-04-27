@@ -11,10 +11,10 @@ jobs:
       PROJECT_NAME: Pharo-AI-${{ matrix.smalltalk }}
     strategy:
       matrix:
-        smalltalk: [ Pharo64-10, Pharo64-11 ]
+        smalltalk: [ Pharo64-10, Pharo64-11, Pharo64-12 ]
     name: ${{ matrix.smalltalk }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
